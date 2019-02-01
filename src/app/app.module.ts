@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { Component1Component } from './task1/component1/component1.component';
 import { Task1Module } from './task1/task1.module';
 import { Task2Module } from './task2/task2.module';
+import { Scenario3Module } from './scenario3/scenario3.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { Task2Module } from './task2/task2.module';
   imports: [
     BrowserModule,
     Task1Module,
-    Task2Module
+    Task2Module,
+    Scenario3Module
   ],
   exports: [
     Component1Component
